@@ -10,11 +10,9 @@
         android:id="@+id/fragment1Btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="59dp"
         android:text="Fragment 1"
         app:layout_constraintEnd_toStartOf="@+id/fragment2Btn"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,10 +20,10 @@
         android:id="@+id/fragment2Btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="48dp"
         android:text="Fragment 2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fragment1Btn"
         app:layout_constraintTop_toTopOf="parent" />
 
     <FrameLayout
